@@ -8,7 +8,7 @@ package pboproject2;
  *
  * @author Lenovo
  */
-public class Celana extends Product {
+public class Celana extends Produk {
     public Celana(String size) {
         super(size);
         nama = "Celana";
@@ -19,4 +19,5 @@ public class Celana extends Product {
     public int getHarga() {
         return harga;
     }
+
 }
