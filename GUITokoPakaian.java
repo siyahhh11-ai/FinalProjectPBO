@@ -192,7 +192,7 @@ public class GUITokoPakaian extends javax.swing.JFrame {
             p = new Kemeja(size);
         } else if (jenis.equals("Celana - 50000")) {
             p = new Celana(size);
-        } else if (jenis.equals("Jaket - 100000")) {
+        } else if (jenis.equals("Jaket - 10000")) {
             p = new Jaket(size);
         } else if (jenis.equals("Kaos - 30000")) {
             p = new Kaos(size);
